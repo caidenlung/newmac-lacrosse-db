@@ -11,7 +11,22 @@ INSERT INTO teams (school_name) VALUES
 
 -- Players
 INSERT INTO players (name, position, class_year, team_id) VALUES
+-- Babson
 ()
+
+-- Clark
+
+-- Coast Guard
+
+-- Emerson
+
+-- MIT
+
+-- Salve Regina
+
+-- Springfield
+
+-- Wheaton
 
 -- Stats
 INSERT INTO player_stats (player_id, goals, assists, shots, ground_balls, saves)
