@@ -7,7 +7,7 @@ INSERT INTO teams (school_name) VALUES
 ("MIT"), -- team_id 5
 ("Salve Regina"), -- team_id 6
 ("Springfield"),-- team_id 7
-("Wheaton") -- team_id 8
+("Wheaton"); -- team_id 8
 
 -- Players
 INSERT INTO players (team_id, jersey_number, first_name, last_name, position, class_year) VALUES
@@ -69,7 +69,7 @@ INSERT INTO players (team_id, jersey_number, first_name, last_name, position, cl
 (1, 57, "Ethan", "Swenson", "M", 2027),
 (1, 58, "Gavin", "Bailey", "LSM", 2025),
 (1, 79, "Bennett", "Smith", "M", 2026),
-(1, 88, "Tripp", "Clark", "D", 2024);
+(1, 88, "Tripp", "Clark", "D", 2024),
 -- Clark - 45 Players
 (2, 1, "Alex", "D'Entrone", "A", 2025),
 (2, 2, "Kyle", "Palmieri", "DM", 2026),
@@ -115,7 +115,7 @@ INSERT INTO players (team_id, jersey_number, first_name, last_name, position, cl
 (2, 47, "Aaron", "Mickiewicz", "M", 2028),
 (2, 48, "Michael", "Berman Annunziata", "A", 2028),
 (2, 49, "Riley", "Joyce", "DM", 2028),
-(2, 50, "Jason", "Shackley", "DM", 2027);
+(2, 50, "Jason", "Shackley", "DM", 2027),
 
 -- Coast Guard - 46 players
 (3, 1, "Harrison", "Holland", "LSM", 2027),
@@ -163,7 +163,7 @@ INSERT INTO players (team_id, jersey_number, first_name, last_name, position, cl
 (3, 48, "Matthew", "Clarke", "SSDM", 2027),
 (3, 49, "Will", "Clarke", "M", 2028),
 (3, 50, "Charles", "Bednar", "M", 2027),
-(3, 52, "Ethan", "Cumming", "D", 2028);
+(3, 52, "Ethan", "Cumming", "D", 2028),
 
 -- Emerson - 23 Players
 (4, 1, "Liam", "Donaldson", "D", 2028),
@@ -188,7 +188,7 @@ INSERT INTO players (team_id, jersey_number, first_name, last_name, position, cl
 (4, 25, "Jack", "Burns", "A", 2025),
 (4, 26, "Ethan", "Corby", "G", 2026),
 (4, 32, "Jacob", "Goldberg", "G", 2028),
-(4, 33, "Sebastian", "Gates-Graceson", "M", 2028);
+(4, 33, "Sebastian", "Gates-Graceson", "M", 2028),
 
 
 -- MIT - 36 Players
@@ -227,7 +227,7 @@ INSERT INTO players (team_id, jersey_number, first_name, last_name, position, cl
 (5, 40, "Justin", "Gelwicks", "M", 2024),
 (5, 41, "Andrew", "Kessler", "M", 2025),
 (5, 44, "Patrick", "Timons", "D", 2025),
-(5, 45, "Bryce", "Metalios", "A", 2026);
+(5, 45, "Bryce", "Metalios", "A", 2026),
 
 -- Salve Regina - 58 Players
 (6, 0, "Nate", "Strassberger", "FOGO", 2028),
@@ -287,7 +287,7 @@ INSERT INTO players (team_id, jersey_number, first_name, last_name, position, cl
 (6, 54, "Adam", "Donovan", "D", 2028),
 (6, 55, "John", "Young", "G", 2028),
 (6, 77, "Gavin", "Johnson", "D", 2025),
-(6, 88, "Nicholas", "Bailey", "A", 2028);
+(6, 88, "Nicholas", "Bailey", "A", 2028),
 
 -- Springfield - 47 Players
 (7, 2, "Kaden", "Quirk", "G", 2025),
@@ -336,7 +336,7 @@ INSERT INTO players (team_id, jersey_number, first_name, last_name, position, cl
 (7, 47, "Ryan", "McDonald", "SSDM", 2025),
 (7, 48, "Jack", "Shay", "M", 2028),
 (7, 49, "Kevin", "Tierney", "A", 2024),
-(7, 50, "Anders", "Norman", "SSDM", 2025);
+(7, 50, "Anders", "Norman", "SSDM", 2025),
 
 -- Wheaton - 28 Players
 (8, 1, "Trey", "Gagne", "D", 2027),
@@ -376,13 +376,13 @@ INSERT INTO players (team_id, jersey_number, first_name, last_name, position, cl
 (8, 40, "Jack", "Board", "M", 2025),
 (8, 41, "Charlie", "Goodrich", "A/M", 2026),
 (8, 43, "Declan", "Cavanaugh", "D", 2028),
-(8, 51, "Connor", "Davine", "M", 2027);
+(8, 51, "Connor", "Davine", "M", 2027),
 
 
 -- Stats
 INSERT INTO player_stats (player_id, goals, assists, shots, ground_balls, saves, games_played, minutes_played) VALUES
 -- Babson
-(1, 0, 0, 0, 4, 40, 19, 126)
+(1, 0, 0, 0, 4, 40, 19, 126),
 
 -- Clark
 -- (59)
