@@ -376,13 +376,13 @@ INSERT INTO players (team_id, jersey_number, first_name, last_name, position, cl
 (8, 40, "Jack", "Board", "M", 2025),
 (8, 41, "Charlie", "Goodrich", "A/M", 2026),
 (8, 43, "Declan", "Cavanaugh", "D", 2028),
-(8, 51, "Connor", "Davine", "M", 2027),
+(8, 51, "Connor", "Davine", "M", 2027);
 
 
 -- Stats
-INSERT INTO player_stats (player_id, goals, assists, shots, ground_balls, saves, games_played, minutes_played) VALUES
+-- INSERT INTO player_stats (player_id, goals, assists, shots, ground_balls, saves, games_played, minutes_played) VALUES
 -- Babson
-(1, 0, 0, 0, 4, 40, 19, 126),
+-- (1, 0, 0, 0, 4, 40, 19, 126),
 
 -- Clark
 -- (59)
